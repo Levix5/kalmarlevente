@@ -1,0 +1,241 @@
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+
+/*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/master/LICENSE */
+
+/* User-Agent Style */
+html {
+    background-color: #2e3440 !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #2e3440;
+}
+html, body, input, textarea, select, button {
+    border-color: #4d6285;
+    color: #eceff4;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #4b5468;
+}
+::placeholder {
+    color: #97a7c3;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #7f8600 !important;
+    color: #eceff4 !important;
+}
+::-webkit-scrollbar {
+    background-color: #323946;
+    color: #8d9fbd;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #465062;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #505b70;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #404959;
+}
+::-webkit-scrollbar-corner {
+    background-color: #2e3440;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #eceff4 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #eceff4 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #252a33;
+   --darkreader-neutral-text: #dde4eb;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #eceff4;
+}
+
+/* Modified CSS */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    border-color: initial;
+}
+ol,
+ul {
+    list-style-image: initial;
+}
+body {
+    background-image: initial;
+    background-color: rgb(48, 54, 66);
+}
+body,
+input,
+select,
+textarea {
+    color: rgb(236, 239, 244);
+}
+a {
+    color: rgb(215, 221, 232);
+}
+.icon {
+    text-decoration-color: initial;
+}
+#main {
+    color: rgb(185, 196, 215);
+}
+#header a {
+    border-bottom-color: initial;
+}
+#header nav a {
+    border-color: initial;
+}
+#header nav a:hover {
+    text-decoration-color: initial;
+}
+#header nav a:active::before,
+#header nav a:hover::before {
+    background-color: rgb(34, 39, 47);
+    color: rgb(236, 239, 244);
+}
+#header nav a:active {
+    background-image: initial;
+    background-color: initial;
+}
+.fa-border {
+    border-color: rgb(47, 53, 65);
+}
+.fa-inverse {
+    color: rgb(236, 239, 244);
+}
+.sr-only {
+    border-color: initial;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1 {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
